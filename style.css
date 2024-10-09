@@ -1,0 +1,167 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    background-color:rgb(231, 218, 246);
+}
+#a
+{
+    color: #3399CC;
+    font-size: 1.5rem;
+}
+.a1
+{
+    display: flex;
+    flex-direction: row ;
+    justify-content:space-between;
+}
+.p
+{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+.p :hover
+{
+   color: grey;
+   text-decoration: underline;
+}
+.a2
+{
+    height: 200px;
+    width: 100%;
+    background-image:url("images/div1.jpg ");
+    background-size:100% 200px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.a3
+{
+    height: fit-content;
+    gap:5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.a4
+{
+    height: 40px;
+    width: 80px;
+    background-color: aqua;
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 10%;
+    font-weight: bold;
+    text-align: center;
+}
+.d
+{
+    margin-top :10px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.a5
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 10%;
+    background-color: aqua;
+    color:rgb(1, 2, 21);
+    font-size: 1rem;
+   
+    margin-left: 320px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.button
+{
+    display: flex;
+    height: 50px;
+    width: 50%;
+    margin-left:300px;
+
+    
+}
+.usr{
+    margin-top: 0%;
+    list-style-type: none;
+    display:flex;
+    gap:20px;
+    height: 70%;
+    width:100%;
+    
+    
+
+    
+}
+.usr .b1
+{
+    background-color: rgb(27, 204, 145);
+    height: 100%;
+    width: 30px;
+}
+.usr .b2
+{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 30px;
+}
+.last
+{
+    background-color: #eeeeee;
+    height: 200px;
+    width: 100%;
+   
+    display: flex;
+
+}
+.l1
+{
+    width:33%;
+    height:100%;
+}
+.l2
+{
+    justify-content: end;
+    width:33%;
+    height:100%;
+}
+.l3
+{
+    
+    width:34%;
+    height:100%;
+    
+}
+.bl
+{
+    margin-top: 5%;
+    height: 50px;
+    width: 80px;
+    margin-left: 10%;
+    background-color: rgb(154, 246, 246);
+}
+.l2{
+    margin-left: auto;
+}
+.ls
+{
+    display: flex;
+}
+.ls1
+{
+    width:70%;
+    justify-content:center;
+    margin-left: 6%;
+}
+.ls2{
+    width:30%;
+
+}
