@@ -45,7 +45,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.l3 .bll {
+    border-radius: 10%;
+    font-size:30px;
+}
+.l3 .bl2
+{
+    border-radius: 10%;
+    font-size:30px;
+}
+.l3 .bl1
+{
+    border-radius: 10%;
+    font-size:30px;
+}
 .a4
 {
     height: 40px;
@@ -134,11 +147,14 @@
     height:100%;
 }
 .l3
-{
-    
+{  
     width:34%;
     height:100%;
     
+}
+.logo{
+    display: flex;
+    gap:25px;
 }
 .bl
 {
@@ -151,9 +167,12 @@
 .l2{
     margin-left: auto;
 }
-.ls
+.lqs
 {
+    /* background-color: black; */
     display: flex;
+    width: 100%;
+    height: 200px;
 }
 .ls1
 {
@@ -162,6 +181,50 @@
     margin-left: 6%;
 }
 .ls2{
-    width:30%;
+    width: 20%;
 
+}
+#p1:hover{
+    text-decoration: underline orangered;
+    color: #3399CC;
+}
+#p2:hover
+{
+    text-decoration: underline palegoldenrod;
+    color: coral;
+
+}
+#p3:hover
+{
+    text-decoration: underline darkslateblue;
+    color: rgb(28, 52, 5);
+}
+#p4:hover{
+    text-decoration: underline saddlebrown;
+    color: crimson;
+}
+#h:hover{
+    text-shadow:seagreen ;
+    text-decoration: solid;
+}
+.l2:hover{
+    color: black;
+    text-decoration: double saddlebrown;
+    text-shadow: #3399CC;
+}
+.bl1:hover
+{
+    color:#3b5998;
+}
+.bl2:hover{
+    color:#00aced;
+}
+.bll:hover{
+    color:#f11ed8;
+}
+.b2:hover
+{
+    color:black ;             
+    background-color:  rgb(99, 99, 215) ;
+    text-decoration: underline;
 }
